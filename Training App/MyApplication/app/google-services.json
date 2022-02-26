@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "648517208751",
+    "project_id": "staj-projesi-b9bd0",
+    "storage_bucket": "staj-projesi-b9bd0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648517208751:android:6d9f78484bb5812ef8625a",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648517208751-s8ei50mhcdjs1qlj2agajcjq6mtimitn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "b51545410ad936796ecc384aeae9fc7b945425fa"
+          }
+        },
+        {
+          "client_id": "648517208751-qrgl0nej4t4d41drlbet1qfr71t5h1do.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqzM5Z4RHD8OJ3IjpGddLamVak5YD8bYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648517208751-qrgl0nej4t4d41drlbet1qfr71t5h1do.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

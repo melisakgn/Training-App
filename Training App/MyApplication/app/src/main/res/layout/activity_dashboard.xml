@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity"
+    android:background="@drawable/wall">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="389dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/Input_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="İsim">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/kayit_ol_giris_yap_btn_bg"
+                android:text=""></com.google.android.material.textfield.TextInputEditText>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/Input_tmesafe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Toplam mesafe">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/user_tmesafe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/kayit_ol_giris_yap_btn_bg"
+                android:text=""></com.google.android.material.textfield.TextInputEditText>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/Input_tsüre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Toplam süre(s)">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/user_tsüre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/kayit_ol_giris_yap_btn_bg"
+                android:text=""></com.google.android.material.textfield.TextInputEditText>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/Input_aktivitesay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Aktivite sayısı">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/user_aktivite_sayisi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/kayit_ol_giris_yap_btn_bg"
+                android:text=""></com.google.android.material.textfield.TextInputEditText>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="319dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnyeni_aktivite"
+            android:layout_width="250dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="91dp"
+            android:layout_marginLeft="91dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginRight="70dp"
+            android:background="@drawable/kayit_ol_giris_yap_btn_bg"
+            android:gravity="center"
+            android:onClick="btn_yeniaktivite"
+            android:text="Yeni aktivite"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="#D48AE1">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn_aktivite_gecmisi"
+            android:layout_width="250dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="91dp"
+            android:layout_marginLeft="91dp"
+            android:layout_marginTop="94dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginRight="70dp"
+            android:background="@drawable/kayit_ol_giris_yap_btn_bg"
+            android:gravity="center"
+            android:text="Konum Gör"
+            android:textSize="20dp"
+            android:onClick="btn_aktivitegecmisi"
+            android:textStyle="bold"
+            app:backgroundTint="#D48AE1">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn_learderboard"
+            android:layout_width="250dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="91dp"
+            android:layout_marginLeft="91dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginRight="70dp"
+            android:background="@drawable/kayit_ol_giris_yap_btn_bg"
+            android:gravity="center"
+            android:text="LearderBoard"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="#D48AE1">
+
+        </Button>
+
+        
+    </RelativeLayout>
+
+
+</RelativeLayout>
